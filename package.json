@@ -1,0 +1,37 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "description": "Сборка gulp от 24.03.2021",
+  "author": "Nick Buzinov",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "panini": "^1.7.2",
+    "sass": "^1.45.1",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fancyapps/ui": "^4.0.16",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-install": "^1.1.0",
+    "gulp-newer": "^1.4.0",
+    "intl-tel-input": "^17.0.15",
+    "ncu": "^0.2.1",
+    "swiper": "^8.0.7",
+    "validate.js": "^0.13.1"
+  }
+}

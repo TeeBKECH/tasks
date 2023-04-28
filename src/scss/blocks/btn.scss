@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  background: #4077f3;
+  padding: 2rem 3.5rem;
+  color: $text_color;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background: darken(#4077f3, 15);
+  }
+}

@@ -1,0 +1,91 @@
+.circle {
+  position: absolute;
+  z-index: 2;
+  width: 41rem;
+  height: 41rem;
+  border-radius: 50%;
+  filter: blur(15rem);
+
+  @media screen and (max-width: 600px) {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  &-orange {
+    left: -19.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(#961a1a, 0.2);
+
+    @media screen and (max-width: 600px) {
+      left: -10rem;
+      top: unset;
+      bottom: -10rem;
+      background: rgba(#961a1a, 0.6);
+    }
+  }
+
+  &-purple {
+    top: -17.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(#833ab4, 0.2);
+
+    @media screen and (max-width: 600px) {
+      top: 50%;
+      left: unset;
+      right: -7rem;
+      background: rgba(#833ab4, 0.6);
+    }
+  }
+}
+
+.ball {
+  position: absolute;
+  z-index: 3;
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  &-orange {
+    left: 39%;
+    top: 7rem;
+
+    @media screen and (max-width: 600px) {
+      left: 3rem;
+      top: unset;
+      bottom: 0;
+      width: 5rem;
+      height: 5rem;
+      filter: blur(1rem);
+    }
+  }
+
+  &-purple {
+    top: -1rem;
+    left: 55%;
+
+    @media screen and (max-width: 600px) {
+      top: 50%;
+      left: unset;
+      right: -3rem;
+      width: 7rem;
+      height: 7rem;
+      filter: blur(1rem);
+    }
+  }
+
+  &-orange2 {
+    width: 3rem;
+    height: 3rem;
+    left: 60%;
+    top: 60%;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+}
