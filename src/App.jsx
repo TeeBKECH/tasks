@@ -76,7 +76,13 @@ function App() {
       <br />
       <br />
 
-      <a href='#'>Версия на чистом js</a>
+      <a
+        rel='noreferrer'
+        href='https://teebkech.github.io/tasks/'
+        target='_blank'
+      >
+        Версия на чистом js
+      </a>
 
       <script src='./index.js'></script>
     </div>
